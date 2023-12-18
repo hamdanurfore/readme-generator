@@ -26,8 +26,8 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: 'lisence',
-        message: 'What lisence should your project have?',
+        name: 'licence',
+        message: 'What licence should your project have?',
     },
     {
         type: 'input',
