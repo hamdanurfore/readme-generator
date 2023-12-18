@@ -1,5 +1,5 @@
 // node modules 
-const inquirer = require("inqurier");
+const inquirer = require('inquirer');
 const fs = require("fs");
 
 
