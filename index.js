@@ -52,3 +52,26 @@ const questions = [
     },
 ];
 
+// function to initialize program
+function init() {
+    inquirer.prompt(questions)
+    .then((answers)=>{
+        console.log(answers)
+        const templateREADME = generateMarkdown(answers)
+        console.log(templateREADME)
+        fs.writeFile("generatedREADME.md",templateREADME, (err)=>{
+            if(err){
+                throw err
+            }
+            console.log("file created")
+        })
+
+
+    })
+
+
+}
+
+
+// function call to initialize program
+init();
