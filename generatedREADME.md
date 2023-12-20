@@ -1,4 +1,4 @@
-# Professional README Generator
+# ReadMe-Generator
 
   ## Description
    A CLI Readme Generator to help users save time by generating professional Readme's.
