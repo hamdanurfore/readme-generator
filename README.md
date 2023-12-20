@@ -14,6 +14,7 @@
 
     ## Installation
     To install neccessary dependencies, run the following command:
+    
     ``` npm i ```
 
     ## Usage
