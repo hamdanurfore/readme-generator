@@ -17,7 +17,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'projectName',
+        name: 'title',
         message: 'What is the name of your project?',
     },
     {
@@ -32,17 +32,17 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'dependencies',
+        name: 'installation',
         message: 'What command should be run to install dependencies?',
     },
     {
         type: 'input',
-        name: 'runTests',
+        name: 'tests',
         message: 'What command should be run to run tests?',
     },
     {
         type: 'input',
-        name: 'howToUse',
+        name: 'usage',
         message: 'what does the user need to know about using the repo?',
     },
     {
@@ -52,14 +52,3 @@ const questions = [
     },
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
